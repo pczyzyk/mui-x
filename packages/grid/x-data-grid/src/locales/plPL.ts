@@ -46,7 +46,7 @@ const plPLGrid: Partial<GridLocaleText> = {
 
   // Filter panel text
   filterPanelAddFilter: 'Dodaj filtr',
-  // filterPanelRemoveAll: 'Remove all',
+  filterPanelRemoveAll: 'Usuń wszystkie',
   filterPanelDeleteIconLabel: 'Usuń',
   filterPanelLogicOperator: 'Operator logiczny',
   filterPanelOperator: 'Operator',
@@ -79,7 +79,7 @@ const plPLGrid: Partial<GridLocaleText> = {
   // Column menu text
   columnMenuLabel: 'Menu',
   columnMenuShowColumns: 'Pokaż wszystkie kolumny',
-  // columnMenuManageColumns: 'Manage columns',
+  columnMenuManageColumns: 'Zarządzaj kolumnami',
   columnMenuFilter: 'Filtr',
   columnMenuHideColumn: 'Ukryj',
   columnMenuUnsort: 'Anuluj sortowanie',
@@ -131,7 +131,7 @@ const plPLGrid: Partial<GridLocaleText> = {
   unGroupColumn: (name) => `Rozgrupuj ${name}`,
 
   // Master/detail
-  // detailPanelToggle: 'Detail panel toggle',
+  detailPanelToggle: 'Włącz/wyłącz szczegóły',
   expandDetailPanel: 'Rozwiń',
   collapseDetailPanel: 'Zwiń',
 
@@ -139,12 +139,12 @@ const plPLGrid: Partial<GridLocaleText> = {
   rowReorderingHeaderName: 'Porządkowanie wierszy',
 
   // Aggregation
-  // aggregationMenuItemHeader: 'Aggregation',
-  // aggregationFunctionLabelSum: 'sum',
-  // aggregationFunctionLabelAvg: 'avg',
-  // aggregationFunctionLabelMin: 'min',
-  // aggregationFunctionLabelMax: 'max',
-  // aggregationFunctionLabelSize: 'size',
+  aggregationMenuItemHeader: 'Agregacja',
+  aggregationFunctionLabelSum: 'suma',
+  aggregationFunctionLabelAvg: 'średnia',
+  aggregationFunctionLabelMin: 'min',
+  aggregationFunctionLabelMax: 'max',
+  aggregationFunctionLabelSize: 'rozmiar',
 };
 
 export const plPL: Localization = getGridLocalization(plPLGrid, plPLCore);
